@@ -3100,7 +3100,7 @@ button:focus {
     }
     .mo-left .header-nav .logo-header {
         overflow: hidden;
-        background-color: #303338;
+        background-color: #fff;
     }
     .mo-left .is-fixed .header-nav .logo-header {
         width: 100%;
