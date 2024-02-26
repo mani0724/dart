@@ -86,7 +86,7 @@
                                 <li><i class="fa-solid fa-2x fa-phone "></i> <a href="telno:+919980077990">9980077990</a>
                                     
                                 </li>
-                                <li><i class="fa-regular fa-envelope"></i> <a href="mailto:info@dart.repair">info@dart.repair</a>
+                                <li><i class="fa-regular fa-envelope"></i> <a href="mailto:info@dart.repair">bpshop@dart.repair</a>
                                     
                                 </li>
                             
@@ -141,68 +141,79 @@
             <div class="section-full">
                 <div class="container">
                     <form class="row car-search-box m-lr0 p-lr15 p-b30 p-t15 bg-primary">
-                        <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
                             <label>Select make</label>
-                            <div class="selected-box">
+                            <div class="selected-box" id="make" name="make">
                                 <select class="selectpicker">
-								<option>Maruti Suzuki </option>
-								<option>Hyundai</option>
-								<option>Tata Motors</option>
-								<option>Mahindra & Mahindra</option>
-								<option>Honda</option>
-								<option>Skoda</option>
-                                <option>Volkswagen</option>
-                                <option>Renault</option>
-                                <option>Toyota</option>
-                                <option>Nissan</option>
-                                <option>MG Motor</option>
-                                <option>Jeep</option>
-                                <option>Mercedes</option>
-                                <option>Audi</option>
+								<option value="Maruti Suzuki">Maruti Suzuki </option>
+								<option value="Hyundai">Hyundai</option>
+								<option value="Tata Motors">Tata Motors</option>
+								<option value="Mahindra & Mahindra">Mahindra & Mahindra</option>
+								<option value="Honda">Honda</option>
+								<option value="Skoda">Skoda</option>
+                                <option value="Volkswagen">Volkswagen</option>
+                                <option value="Renault">Renault</option>
+                                <option value="Toyota">Toyota</option>
+                                <option value="Nissan">Nissan</option>
+                                <option value="MG Motor">MG Motor</option>
+                                <option value="Jeep">Jeep</option>
+                                <option value="Mercedes">Mercedes</option>
+                                <option value="Audi">Audi</option>
 
-                                <option>BMW</option><option>Jaguar</option>
-                                <option>Porsche</option>
-                                <option>Lamborgini</option>
+                                <option value="BMW">BMW</option>
+                                <option value="Jaguar">Jaguar</option>
+                                <option value="Porsche">Porsche</option>
+                                <option value="Lamborgini">Lamborgini</option>
                               
 							</select>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
                             <label>Select Car Services</label>
-                            <div class="selected-box">
+                            <div class="selected-box" id="services" name="services">
                                 <select class="selectpicker">
-								<option>Car AC services</option>
-								<option>Periodic Services</option>
-								<option>Denting and Painting</option>
-								<option>Battery Replacement</option>
-								<option>Exterior Detailing</option>
-								<option>Interior Detailing</option>
-								<option>Paint Protection</option>
-                                <option>Full Body Paint</option>
-                                <option>Tyre Replacement</option>
+								<option value="Car AC services">Car AC services</option>
+								<option value="Periodic Services">Periodic Services</option>
+								<option value="Denting and Painting">Denting and Painting</option>
+								<option value="Battery Replacement">Battery Replacement</option>
+								<option value="Exterior Detailing">Exterior Detailing</option>
+								<option value="Interior Detailing">Interior Detailing</option>
+								<option value="Paint Protection">Paint Protection</option>
+                                <option value="Full Body Paint">Full Body Paint</option>
+                                <option value="Tyre Replacement">Tyre Replacement</option>
 							</select>
                             </div>
                         </div>
                        
-                        <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
                             <label>Name</label>
                             <input type="text" name="name"  id="name" class="form-control">
                           
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
                             <label>Phone Number</label>
                             <input type="number" name="phone"  id="phone" class="form-control">
                           
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <label>Email</label>
+                            <input type="email" name="email"  id="email" class="form-control">
+                          
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
+                            <label>Type your Issue</label>
+                            <textarea type="text" rows="4" name="comments" id="comments" class="form-control"></textarea>
+                            
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
                             <label></label>
                             <button type="submit" class="site-button-secondry black w-100">Submit</button>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
                            </div>
+                        
                     </form>
                 </div>
             </div>
